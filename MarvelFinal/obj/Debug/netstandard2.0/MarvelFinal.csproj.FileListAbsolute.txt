@@ -1,0 +1,13 @@
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/MarvelFinal.csprojAssemblyReference.cache
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/Views/InfoPage.xaml.g.cs
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/MarvelFinal.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/MarvelFinal.AssemblyInfoInputs.cache
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/MarvelFinal.AssemblyInfo.cs
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/bin/Debug/netstandard2.0/MarvelFinal.deps.json
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/bin/Debug/netstandard2.0/MarvelFinal.dll
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/bin/Debug/netstandard2.0/MarvelFinal.pdb
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/MarvelFinal.dll
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/obj/Debug/netstandard2.0/MarvelFinal.pdb

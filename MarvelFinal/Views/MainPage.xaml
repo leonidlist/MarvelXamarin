@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Marvel" x:Class="Marvel.Views.MainPage"
+    xmlns:vms="clr-namespace:Marvel.ViewModels"
+    xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
+    Title="Characters"
+    >
+    
+    <!--xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"-->
+    
+    <Grid>
+        <!--<forms:AnimationView x:Name="AnimationView" Animation="data.json" Loop="true" AutoPlay="true"
+                             VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></forms:AnimationView>-->
+        <StackLayout>
+            <ListView SeparatorVisibility="None" ItemTapped="Handle_ItemTapped"
+                      HasUnevenRows="true" x:Name="CharactersListView" HorizontalOptions="Center"
+                      ItemsSource="{Binding Characters}" RowHeight="100" IsPullToRefreshEnabled="true"
+                      RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+                <ListView.ItemTemplate>
+                   <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Image Source="{Binding Thumbnail.FullURI}" Aspect="AspectFill"></Image>
+                                <Label Text="{Binding Name}" Font="24" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.Behaviors>
+                    <extended:InfiniteScrollBehavior IsLoadingMore="{Binding IsBusy}"></extended:InfiniteScrollBehavior>
+                </ListView.Behaviors>
+                <ListView.Footer>
+                    <Grid Padding="5" IsVisible="{Binding IsBusy}">
+                        <Grid.Triggers>
+                            <Trigger TargetType="Grid" Property="IsVisible" Value="False">
+                                <Setter Property="HeightRequest" Value="0"></Setter>
+                            </Trigger>
+                        </Grid.Triggers>
+                        
+                        <Label Text="Loading..." TextColor="Gray" FontSize="14" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+                    </Grid>
+                </ListView.Footer>
+            </ListView>
+        </StackLayout>
+    </Grid>
+    
+</ContentPage>
