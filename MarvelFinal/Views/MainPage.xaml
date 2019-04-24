@@ -5,7 +5,6 @@
     xmlns:local="clr-namespace:Marvel" x:Class="Marvel.Views.MainPage"
     xmlns:vms="clr-namespace:Marvel.ViewModels"
     xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
-    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
     xmlns:converters="clr-namespace:MarvelFinal.Converters"
     Title="Characters"
     >
@@ -17,8 +16,7 @@
     </ContentPage.Resources>
     
     <Grid>
-        <BoxView BackgroundColor="Fuchsia" WidthRequest="100" HeightRequest="100"></BoxView>
-        <StackLayout IsVisible="true">
+        <StackLayout>
             <ListView SeparatorVisibility="None" ItemTapped="Handle_ItemTapped"
                       HasUnevenRows="true" x:Name="CharactersListView" HorizontalOptions="Center"
                       ItemsSource="{Binding Characters}" RowHeight="125" IsPullToRefreshEnabled="true"
@@ -58,8 +56,6 @@
                 </ListView.Footer>
             </ListView>
         </StackLayout>
-        <!--<forms:AnimationView x:Name="AnimationView" Animation="data.json" Loop="true" AutoPlay="true" WidthRequest="400" HeightRequest="400"
-                             VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" IsVisible="{Binding IsRefreshing}"></forms:AnimationView>-->
     </Grid>
     
 </ContentPage>

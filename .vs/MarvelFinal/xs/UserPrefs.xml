@@ -1,19 +1,10 @@
 ﻿<Properties StartupConfiguration="{C654D2E3-F101-4CF2-8AFE-B0860DDE32FA}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.ItemProperties.MarvelFinal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8FD3F524-D010-4D59-A7FB-5513ACF5BBB6" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MarvelFinal/Views/MainPage.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.MarvelFinal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.1c24aa1f6d0181a389dacb81fd757cc4c1c1e305" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MarvelFinal/Views/MainPage.xaml">
     <Files>
       <File FileName="MarvelFinal/Views/MainPage.xaml" />
-      <File FileName="MarvelFinal/Infrastructure/MarvelApi.cs" Line="27" Column="33" />
-      <File FileName="MarvelFinal/Infrastructure/RelayCommand.cs" Line="1" Column="1" />
-      <File FileName="MarvelFinal/Infrastructure/CacheMechanism.cs" Line="1" Column="1" />
-      <File FileName="MarvelFinal/Models/MarvelCharacter.cs" Line="10" Column="37" />
-      <File FileName="MarvelFinal/Models/MarvelInnerModel.cs" Line="1" Column="1" />
-      <File FileName="MarvelFinal/Models/MarvelModel.cs" Line="1" Column="1" />
-      <File FileName="MarvelFinal/Models/Thumbnail.cs" Line="12" Column="27" />
-      <File FileName="MarvelFinal/ViewModels/InfoViewModel.cs" Line="19" Column="27" />
-      <File FileName="MarvelFinal/ViewModels/MainViewModel.cs" Line="49" Column="1" />
-      <File FileName="MarvelFinal/Views/InfoPage.xaml" />
-      <File FileName="MarvelFinal/Views/MainPage.xaml.cs" Line="22" Column="35" />
+      <File FileName="MarvelFinal.iOS/Main.cs" Line="17" Column="59" />
+      <File FileName="MarvelFinal.iOS/AppDelegate.cs" Line="28" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,18 +17,18 @@
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="InfoPage.xaml" expanded="True" />
-                <Node name="MainPage.xaml" expanded="True">
-                  <Node name="MainPage.xaml.cs" selected="True" />
-                </Node>
+                <Node name="MainPage.xaml" expanded="True" selected="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
+            <Node name="MarvelFinal.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
