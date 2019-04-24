@@ -21,6 +21,8 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/mac/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
+/Users/mac/.nuget/packages/com.airbnb.xamarin.forms.lottie/2.7.1/lib/xamarinios10/Lottie.Forms.dll
+/Users/mac/.nuget/packages/com.airbnb.ios.lottie/2.5.7/lib/xamarinios10/Lottie.iOS.dll
 /Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal/bin/Debug/netstandard2.0/MarvelFinal.dll
 /Users/mac/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/mac/.nuget/packages/xamarin.forms.extended.infinitescrolling/1.0.0-preview2/lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll

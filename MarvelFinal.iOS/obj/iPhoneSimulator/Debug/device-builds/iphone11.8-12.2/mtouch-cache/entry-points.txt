@@ -987,6 +987,48 @@ Function=ReadZStream
 	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/System.dll
 Function=WriteZStream
 	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/System.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimationView
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimatedControl
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimatedSwitch
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimationCache
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimationTransitionController
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTCacheProvider
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTColorBlockCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTColorValueCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTComposition
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTFloatInterpolatorCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTKeypath
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTNumberBlockCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTNumberValueCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPathBlockCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPathValueCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPointBlockCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPointInterpolatorCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPointValueCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTSizeBlockCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTSizeInterpolatorCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTSizeValueCallback
+	/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Lottie.iOS.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper

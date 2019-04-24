@@ -5,25 +5,39 @@
     xmlns:local="clr-namespace:Marvel" x:Class="Marvel.Views.MainPage"
     xmlns:vms="clr-namespace:Marvel.ViewModels"
     xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    xmlns:converters="clr-namespace:MarvelFinal.Converters"
     Title="Characters"
     >
     
-    <!--xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"-->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:UpperCaseConverter x:Key="upperCaseConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     
     <Grid>
-        <!--<forms:AnimationView x:Name="AnimationView" Animation="data.json" Loop="true" AutoPlay="true"
-                             VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></forms:AnimationView>-->
-        <StackLayout>
+        <BoxView BackgroundColor="Fuchsia" WidthRequest="100" HeightRequest="100"></BoxView>
+        <StackLayout IsVisible="true">
             <ListView SeparatorVisibility="None" ItemTapped="Handle_ItemTapped"
                       HasUnevenRows="true" x:Name="CharactersListView" HorizontalOptions="Center"
-                      ItemsSource="{Binding Characters}" RowHeight="100" IsPullToRefreshEnabled="true"
+                      ItemsSource="{Binding Characters}" RowHeight="125" IsPullToRefreshEnabled="true"
                       RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
                 <ListView.ItemTemplate>
                    <DataTemplate>
                         <ViewCell>
                             <Grid>
-                                <Image Source="{Binding Thumbnail.FullURI}" Aspect="AspectFill"></Image>
-                                <Label Text="{Binding Name}" Font="24" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+                                <Image Source="{Binding Thumbnail.URI}" Aspect="AspectFill"></Image>
+                                <BoxView BackgroundColor="Black" Opacity=".6"></BoxView>
+                                <Label Text="{Binding Name}" Font="24"
+                                       TextColor="White"
+                                       VerticalOptions="Center" HorizontalTextAlignment="Center">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS">Roboto Condensed</On>
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
@@ -44,6 +58,8 @@
                 </ListView.Footer>
             </ListView>
         </StackLayout>
+        <!--<forms:AnimationView x:Name="AnimationView" Animation="data.json" Loop="true" AutoPlay="true" WidthRequest="400" HeightRequest="400"
+                             VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" IsVisible="{Binding IsRefreshing}"></forms:AnimationView>-->
     </Grid>
     
 </ContentPage>

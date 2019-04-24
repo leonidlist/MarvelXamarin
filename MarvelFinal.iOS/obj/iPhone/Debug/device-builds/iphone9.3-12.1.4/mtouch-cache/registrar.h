@@ -180,6 +180,45 @@
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewUIDelegate;
 @class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
 @class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
+@class Lottie_Forms_iOS_Renderers_AnimationViewRenderer;
+@class LOTAnimationCache;
+@class LOTAnimationTransitionController;
+@class LOTCacheProvider;
+@protocol LOTValueDelegate;
+@protocol LOTColorValueDelegate;
+@class LOTColorBlockCallback;
+@class LOTColorValueCallback;
+@class LOTValueDelegate;
+@class LOTColorValueDelegate;
+@class LOTComposition;
+@protocol LOTNumberValueDelegate;
+@class LOTFloatInterpolatorCallback;
+@protocol LOTImageCache;
+@class LOTImageCache;
+@class LOTKeypath;
+@class LOTNumberBlockCallback;
+@class LOTNumberValueCallback;
+@class LOTNumberValueDelegate;
+@protocol LOTPathValueDelegate;
+@class LOTPathBlockCallback;
+@class LOTPathValueCallback;
+@class LOTPathValueDelegate;
+@protocol LOTPointValueDelegate;
+@class LOTPointBlockCallback;
+@class LOTPointInterpolatorCallback;
+@class LOTPointValueCallback;
+@class LOTPointValueDelegate;
+@protocol LOTSizeValueDelegate;
+@class LOTSizeBlockCallback;
+@class LOTSizeInterpolatorCallback;
+@class LOTSizeValueCallback;
+@class LOTSizeValueDelegate;
+@class Airbnb_Lottie_LOTAnimationView_LOTAnimationViewAppearance;
+@class LOTAnimationView;
+@class Airbnb_Lottie_LOTAnimatedControl_LOTAnimatedControlAppearance;
+@class LOTAnimatedControl;
+@class Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance;
+@class LOTAnimatedSwitch;
 
 @interface UIApplicationDelegate : NSObject<UIApplicationDelegate> {
 }
@@ -954,6 +993,330 @@
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) initWithCoder:(NSCoder *)p0;
 	-(id) initWithFrame:(CGRect)p0;
+@end
+
+@interface Lottie_Forms_iOS_Renderers_AnimationViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(id) init;
+@end
+
+@interface LOTAnimationCache : NSObject {
+}
+	-(void) addAnimation:(id)p0 forKey:(NSString *)p1;
+	-(id) animationForKey:(NSString *)p0;
+	-(void) clearCache;
+	-(void) disableCaching;
+	-(void) removeAnimationForKey:(NSString *)p0;
+	-(id) init;
+@end
+
+@interface LOTAnimationTransitionController : NSObject {
+}
+	-(void) animateTransition:(id)p0;
+	-(double) transitionDuration:(id)p0;
+	-(id) init;
+	-(id) initWithAnimationNamed:(NSString *)p0 fromLayerNamed:(NSString *)p1 toLayerNamed:(NSString *)p2 applyAnimationTransform:(BOOL)p3;
+	-(id) initWithAnimationNamed:(NSString *)p0 fromLayerNamed:(NSString *)p1 toLayerNamed:(NSString *)p2 applyAnimationTransform:(BOOL)p3 inBundle:(NSBundle *)p4;
+@end
+
+@interface LOTCacheProvider : NSObject {
+}
+	-(id) init;
+@end
+
+@protocol LOTValueDelegate
+@end
+
+@protocol LOTColorValueDelegate
+	@required -(id) colorForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startColor:(id)p4 endColor:(id)p5 currentColor:(id)p6;
+@end
+
+@interface LOTColorBlockCallback : NSObject {
+}
+	-(id) colorForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startColor:(id)p4 endColor:(id)p5 currentColor:(id)p6;
+	-(id) callback;
+	-(void) setCallback:(id)p0;
+	-(id) init;
+@end
+
+@interface LOTColorValueCallback : NSObject {
+}
+	-(id) colorForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startColor:(id)p4 endColor:(id)p5 currentColor:(id)p6;
+	-(id) colorValue;
+	-(void) setColorValue:(id)p0;
+	-(id) init;
+@end
+
+@interface LOTValueDelegate : NSObject<LOTValueDelegate> {
+}
+	-(id) init;
+@end
+
+@interface LOTColorValueDelegate : NSObject<LOTColorValueDelegate, LOTValueDelegate> {
+}
+	-(id) init;
+@end
+
+@interface LOTComposition : NSObject {
+}
+	-(NSBundle *) assetBundle;
+	-(NSString *) cacheKey;
+	-(void) setCacheKey:(NSString *)p0;
+	-(CGRect) compBounds;
+	-(NSNumber *) endFrame;
+	-(NSNumber *) framerate;
+	-(NSString *) rootDirectory;
+	-(void) setRootDirectory:(NSString *)p0;
+	-(NSNumber *) startFrame;
+	-(double) timeDuration;
+	-(id) init;
+	-(id) initWithJSON:(NSDictionary *)p0 withAssetBundle:(NSBundle *)p1;
+@end
+
+@protocol LOTNumberValueDelegate
+	@required -(CGFloat) floatValueForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startValue:(CGFloat)p4 endValue:(CGFloat)p5 currentValue:(CGFloat)p6;
+@end
+
+@interface LOTFloatInterpolatorCallback : NSObject {
+}
+	-(CGFloat) floatValueForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startValue:(CGFloat)p4 endValue:(CGFloat)p5 currentValue:(CGFloat)p6;
+	-(CGFloat) currentProgress;
+	-(void) setCurrentProgress:(CGFloat)p0;
+	-(CGFloat) fromFloat;
+	-(void) setFromFloat:(CGFloat)p0;
+	-(CGFloat) toFloat;
+	-(void) setToFloat:(CGFloat)p0;
+	-(id) init;
+@end
+
+@protocol LOTImageCache
+	@required -(UIImage *) imageForKey:(NSString *)p0;
+	@required -(void) setImage:(UIImage *)p0 forKey:(NSString *)p1;
+@end
+
+@interface LOTImageCache : NSObject<LOTImageCache> {
+}
+	-(id) init;
+@end
+
+@interface LOTKeypath : NSObject {
+}
+	-(void) addSearchResultForCurrentPath:(NSObject *)p0;
+	-(void) popKey;
+	-(void) popToRootKey;
+	-(BOOL) pushKey:(NSString *)p0;
+	-(NSString *) absoluteKeypath;
+	-(NSString *) currentKey;
+	-(NSString *) currentKeyPath;
+	-(BOOL) endOfKeypath;
+	-(BOOL) hasFuzzyWildcard;
+	-(BOOL) hasWildcard;
+	-(NSDictionary *) searchResults;
+	-(id) init;
+@end
+
+@interface LOTNumberBlockCallback : NSObject {
+}
+	-(CGFloat) floatValueForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startValue:(CGFloat)p4 endValue:(CGFloat)p5 currentValue:(CGFloat)p6;
+	-(id) callback;
+	-(void) setCallback:(id)p0;
+	-(id) init;
+@end
+
+@interface LOTNumberValueCallback : NSObject {
+}
+	-(CGFloat) floatValueForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startValue:(CGFloat)p4 endValue:(CGFloat)p5 currentValue:(CGFloat)p6;
+	-(CGFloat) numberValue;
+	-(void) setNumberValue:(CGFloat)p0;
+	-(id) init;
+@end
+
+@interface LOTNumberValueDelegate : NSObject<LOTNumberValueDelegate, LOTValueDelegate> {
+}
+	-(id) init;
+@end
+
+@protocol LOTPathValueDelegate
+	@required -(id) pathForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3;
+@end
+
+@interface LOTPathBlockCallback : NSObject {
+}
+	-(id) pathForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3;
+	-(id) callback;
+	-(void) setCallback:(id)p0;
+	-(id) init;
+@end
+
+@interface LOTPathValueCallback : NSObject {
+}
+	-(id) pathForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3;
+	-(id) pathValue;
+	-(void) setPathValue:(id)p0;
+	-(id) init;
+@end
+
+@interface LOTPathValueDelegate : NSObject<LOTPathValueDelegate, LOTValueDelegate> {
+}
+	-(id) init;
+@end
+
+@protocol LOTPointValueDelegate
+	@required -(CGPoint) pointForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startPoint:(CGPoint)p4 endPoint:(CGPoint)p5 currentPoint:(CGPoint)p6;
+@end
+
+@interface LOTPointBlockCallback : NSObject {
+}
+	-(CGPoint) pointForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startPoint:(CGPoint)p4 endPoint:(CGPoint)p5 currentPoint:(CGPoint)p6;
+	-(id) callback;
+	-(void) setCallback:(id)p0;
+	-(id) init;
+@end
+
+@interface LOTPointInterpolatorCallback : NSObject {
+}
+	-(CGPoint) pointForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startPoint:(CGPoint)p4 endPoint:(CGPoint)p5 currentPoint:(CGPoint)p6;
+	-(CGFloat) currentProgress;
+	-(void) setCurrentProgress:(CGFloat)p0;
+	-(CGPoint) fromPoint;
+	-(void) setFromPoint:(CGPoint)p0;
+	-(CGPoint) toPoint;
+	-(void) setToPoint:(CGPoint)p0;
+	-(id) init;
+@end
+
+@interface LOTPointValueCallback : NSObject {
+}
+	-(CGPoint) pointForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startPoint:(CGPoint)p4 endPoint:(CGPoint)p5 currentPoint:(CGPoint)p6;
+	-(CGPoint) pointValue;
+	-(void) setPointValue:(CGPoint)p0;
+	-(id) init;
+@end
+
+@interface LOTPointValueDelegate : NSObject<LOTPointValueDelegate, LOTValueDelegate> {
+}
+	-(id) init;
+@end
+
+@protocol LOTSizeValueDelegate
+	@required -(CGSize) sizeForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startSize:(CGSize)p4 endSize:(CGSize)p5 currentSize:(CGSize)p6;
+@end
+
+@interface LOTSizeBlockCallback : NSObject {
+}
+	-(CGSize) sizeForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startSize:(CGSize)p4 endSize:(CGSize)p5 currentSize:(CGSize)p6;
+	-(id) callback;
+	-(void) setCallback:(id)p0;
+	-(id) init;
+@end
+
+@interface LOTSizeInterpolatorCallback : NSObject {
+}
+	-(CGSize) sizeForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startSize:(CGSize)p4 endSize:(CGSize)p5 currentSize:(CGSize)p6;
+	-(CGFloat) currentProgress;
+	-(void) setCurrentProgress:(CGFloat)p0;
+	-(CGSize) fromSize;
+	-(void) setFromSize:(CGSize)p0;
+	-(CGSize) toSize;
+	-(void) setToSize:(CGSize)p0;
+	-(id) init;
+@end
+
+@interface LOTSizeValueCallback : NSObject {
+}
+	-(CGSize) sizeForFrame:(CGFloat)p0 startKeyframe:(CGFloat)p1 endKeyframe:(CGFloat)p2 interpolatedProgress:(CGFloat)p3 startSize:(CGSize)p4 endSize:(CGSize)p5 currentSize:(CGSize)p6;
+	-(CGSize) sizeValue;
+	-(void) setSizeValue:(CGSize)p0;
+	-(id) init;
+@end
+
+@interface LOTSizeValueDelegate : NSObject<LOTSizeValueDelegate, LOTValueDelegate> {
+}
+	-(id) init;
+@end
+
+@interface Airbnb_Lottie_LOTAnimationView_LOTAnimationViewAppearance : UIKit_UIView_UIViewAppearance {
+}
+@end
+
+@interface LOTAnimationView : UIView {
+}
+	-(void) addSubview:(UIView *)p0 toKeypathLayer:(id)p1;
+	-(void) addSubview:(UIView *)p0 toLayerNamed:(NSString *)p1 applyTransform:(BOOL)p2;
+	-(CGPoint) convertPoint:(CGPoint)p0 fromKeypathLayer:(id)p1;
+	-(CGPoint) convertPoint:(CGPoint)p0 toKeypathLayer:(id)p1;
+	-(CGRect) convertRect:(CGRect)p0 toLayerNamed:(NSString *)p1;
+	-(CGRect) convertRect:(CGRect)p0 fromKeypathLayer:(id)p1;
+	-(CGRect) convertRect:(CGRect)p0 toKeypathLayer:(id)p1;
+	-(void) forceDrawingUpdate;
+	-(NSArray *) keysForKeyPath:(id)p0;
+	-(void) logHierarchyKeypaths;
+	-(void) maskSubview:(UIView *)p0 toKeypathLayer:(id)p1;
+	-(void) pause;
+	-(void) play;
+	-(void) playFromFrame:(NSNumber *)p0 toFrame:(NSNumber *)p1 withCompletion:(id)p2;
+	-(void) playFromProgress:(CGFloat)p0 toProgress:(CGFloat)p1 withCompletion:(id)p2;
+	-(void) playToFrame:(NSNumber *)p0 withCompletion:(id)p1;
+	-(void) playToProgress:(CGFloat)p0 withCompletion:(id)p1;
+	-(void) playWithCompletion:(id)p0;
+	-(void) setAnimationNamed:(NSString *)p0;
+	-(void) setProgressWithFrame:(NSNumber *)p0;
+	-(void) setValue:(NSObject *)p0 forKeypath:(NSString *)p1 atFrame:(NSNumber *)p2;
+	-(void) setValueDelegate:(NSObject *)p0 forKeypath:(id)p1;
+	-(void) stop;
+	-(CGFloat) animationDuration;
+	-(CGFloat) animationProgress;
+	-(void) setAnimationProgress:(CGFloat)p0;
+	-(CGFloat) animationSpeed;
+	-(void) setAnimationSpeed:(CGFloat)p0;
+	-(BOOL) autoReverseAnimation;
+	-(void) setAutoReverseAnimation:(BOOL)p0;
+	-(BOOL) cacheEnable;
+	-(void) setCacheEnable:(BOOL)p0;
+	-(id) completionBlock;
+	-(void) setCompletionBlock:(id)p0;
+	-(BOOL) isAnimationPlaying;
+	-(BOOL) loopAnimation;
+	-(void) setLoopAnimation:(BOOL)p0;
+	-(id) sceneModel;
+	-(void) setSceneModel:(id)p0;
+	-(BOOL) shouldRasterizeWhenIdle;
+	-(void) setShouldRasterizeWhenIdle:(BOOL)p0;
+	-(id) init;
+	-(id) initWithCoder:(NSCoder *)p0;
+	-(id) initWithModel:(id)p0 inBundle:(NSBundle *)p1;
+	-(id) initWithContentsOfURL:(NSURL *)p0;
+@end
+
+@interface Airbnb_Lottie_LOTAnimatedControl_LOTAnimatedControlAppearance : UIKit_UIControl_UIControlAppearance {
+}
+@end
+
+@interface LOTAnimatedControl : UIControl {
+}
+	-(void) setLayerName:(NSString *)p0 forState:(NSUInteger)p1;
+	-(id) animationComp;
+	-(void) setAnimationComp:(id)p0;
+	-(id) animationView;
+	-(id) init;
+	-(id) initWithCoder:(NSCoder *)p0;
+@end
+
+@interface Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance : Airbnb_Lottie_LOTAnimatedControl_LOTAnimatedControlAppearance {
+}
+@end
+
+@interface LOTAnimatedSwitch : LOTAnimatedControl {
+}
+	-(void) setOn:(BOOL)p0 animated:(BOOL)p1;
+	-(void) setProgressRangeForOffState:(CGFloat)p0 toProgress:(CGFloat)p1;
+	-(void) setProgressRangeForOnState:(CGFloat)p0 toProgress:(CGFloat)p1;
+	-(BOOL) interactiveGesture;
+	-(void) setInteractiveGesture:(BOOL)p0;
+	-(BOOL) isOn;
+	-(void) setOn:(BOOL)p0;
+	-(id) init;
+	-(id) initWithCoder:(NSCoder *)p0;
 @end
 
 

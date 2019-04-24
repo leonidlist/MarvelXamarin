@@ -59,3 +59,7 @@
 /Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhone/Debug/MarvelFinal.iOS.csproj.CopyComplete
 /Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhone/Debug/MarvelFinal.iOS.exe
 /Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/obj/iPhone/Debug/MarvelFinal.iOS.pdb
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/bin/iPhone/Debug/Lottie.iOS.dll
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/bin/iPhone/Debug/Lottie.iOS.pdb
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/bin/iPhone/Debug/Lottie.Forms.dll
+/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/bin/iPhone/Debug/Lottie.Forms.pdb

@@ -9,7 +9,7 @@
             <RowDefinition Height="4*"></RowDefinition>
         </Grid.RowDefinitions>
         
-        <Image Grid.Row="0" Source="{Binding Character.Thumbnail.FullURI}" Aspect="AspectFill">
+        <Image Grid.Row="0" Source="{Binding Character.Thumbnail.URI}" Aspect="AspectFill">
             <Image.GestureRecognizers>
                 <TapGestureRecognizer Command="{Binding OpenCloseImageCommand}"></TapGestureRecognizer>
             </Image.GestureRecognizers>

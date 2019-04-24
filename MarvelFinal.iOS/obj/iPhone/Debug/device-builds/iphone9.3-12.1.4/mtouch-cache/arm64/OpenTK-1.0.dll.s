@@ -31004,7 +31004,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 9691
+.word 9692
 	.no_dead_strip plt_System_Drawing_Color_ToArgb
 plt_System_Drawing_Color_ToArgb:
 _p_2:
@@ -31012,7 +31012,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 9693
+.word 9694
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
@@ -31020,7 +31020,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 9695
+.word 9696
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_4:
@@ -31028,7 +31028,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 9703
+.word 9704
 	.no_dead_strip plt_System_Drawing_Color_FromKnownColor_System_Drawing_KnownColor
 plt_System_Drawing_Color_FromKnownColor_System_Drawing_KnownColor:
 _p_5:
@@ -31036,7 +31036,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 9708
+.word 9709
 	.no_dead_strip plt_System_Drawing_Color_CheckARGBValues_int_int_int_int
 plt_System_Drawing_Color_CheckARGBValues_int_int_int_int:
 _p_6:
@@ -31044,7 +31044,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 9710
+.word 9711
 	.no_dead_strip plt_System_Drawing_Color_get_Value
 plt_System_Drawing_Color_get_Value:
 _p_7:
@@ -31052,7 +31052,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 9712
+.word 9713
 	.no_dead_strip plt_System_Drawing_Color_FromArgb_int_int_int_int
 plt_System_Drawing_Color_FromArgb_int_int_int_int:
 _p_8:
@@ -31060,7 +31060,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 9714
+.word 9715
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_9:
@@ -31068,7 +31068,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 9716
+.word 9717
 	.no_dead_strip plt_System_Drawing_Color_get_Name
 plt_System_Drawing_Color_get_Name:
 _p_10:
@@ -31076,7 +31076,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 9751
+.word 9752
 	.no_dead_strip plt_string_op_Inequality_string_string
 plt_string_op_Inequality_string_string:
 _p_11:
@@ -31084,7 +31084,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 9753
+.word 9754
 	.no_dead_strip plt_System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color
 plt_System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color:
 _p_12:
@@ -31092,7 +31092,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 9758
+.word 9759
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_13:
@@ -31100,7 +31100,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 9760
+.word 9761
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_14:
@@ -31108,7 +31108,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 9765
+.word 9766
 	.no_dead_strip plt_System_Drawing_Color_get_A
 plt_System_Drawing_Color_get_A:
 _p_15:
@@ -31116,7 +31116,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 9773
+.word 9774
 	.no_dead_strip plt_System_Drawing_Color_get_R
 plt_System_Drawing_Color_get_R:
 _p_16:
@@ -31124,7 +31124,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 9775
+.word 9776
 	.no_dead_strip plt_System_Drawing_Color_get_G
 plt_System_Drawing_Color_get_G:
 _p_17:
@@ -31132,7 +31132,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 9777
+.word 9778
 	.no_dead_strip plt_System_Drawing_Color_get_B
 plt_System_Drawing_Color_get_B:
 _p_18:
@@ -31140,7 +31140,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 9779
+.word 9780
 	.no_dead_strip plt_string_Format_string_object__
 plt_string_Format_string_object__:
 _p_19:
@@ -31148,7 +31148,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 9781
+.word 9782
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_20:
@@ -31156,7 +31156,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 9786
+.word 9787
 	.no_dead_strip plt_System_Drawing_Color_CreateColorArgumentException_int_string
 plt_System_Drawing_Color_CreateColorArgumentException_int_string:
 _p_21:
@@ -31164,7 +31164,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 9806
+.word 9807
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_22:
@@ -31172,7 +31172,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 9808
+.word 9809
 	.no_dead_strip plt_string_Format_string_object_object
 plt_string_Format_string_object_object:
 _p_23:
@@ -31180,7 +31180,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 9836
+.word 9837
 	.no_dead_strip plt_System_ArgumentException__ctor_string
 plt_System_ArgumentException__ctor_string:
 _p_24:
@@ -31188,7 +31188,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 9841
+.word 9842
 	.no_dead_strip plt_System_Drawing_Color_CheckRGBValues_int_int_int
 plt_System_Drawing_Color_CheckRGBValues_int_int_int:
 _p_25:
@@ -31196,7 +31196,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 9846
+.word 9847
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_26:
@@ -31204,7 +31204,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 9848
+.word 9849
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_27:
@@ -31212,7 +31212,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 9853
+.word 9854
 	.no_dead_strip plt_System_GC_SuppressFinalize_object
 plt_System_GC_SuppressFinalize_object:
 _p_28:
@@ -31220,7 +31220,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 9891
+.word 9892
 	.no_dead_strip plt_intptr_op_Inequality_intptr_intptr
 plt_intptr_op_Inequality_intptr_intptr:
 _p_29:
@@ -31228,7 +31228,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 9896
+.word 9897
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CFRelease_intptr
 plt_CoreVideo_CVOpenGLESTexture_CFRelease_intptr:
 _p_30:
@@ -31236,7 +31236,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 9901
+.word 9902
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr
 plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr:
 _p_31:
@@ -31244,7 +31244,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 9903
+.word 9904
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetName_intptr
 plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetName_intptr:
 _p_32:
@@ -31252,7 +31252,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 9905
+.word 9906
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureIsFlipped_intptr
 plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureIsFlipped_intptr:
 _p_33:
@@ -31260,7 +31260,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 9907
+.word 9908
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetCleanTexCoords_intptr_intptr_intptr_intptr_intptr
 plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetCleanTexCoords_intptr_intptr_intptr_intptr_intptr:
 _p_34:
@@ -31268,7 +31268,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 9909
+.word 9910
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreate_intptr_intptr_intptr_intptr_intptr_
 plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreate_intptr_intptr_intptr_intptr_intptr_:
 _p_35:
@@ -31276,7 +31276,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 9911
+.word 9912
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_36:
@@ -31284,7 +31284,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 9913
+.word 9914
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_
 plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_:
 _p_37:
@@ -31292,7 +31292,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 9945
+.word 9946
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheFlush_intptr_CoreVideo_CVOptionFlags
 plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheFlush_intptr_CoreVideo_CVOptionFlags:
 _p_38:
@@ -31300,7 +31300,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 9947
+.word 9948
 	.no_dead_strip plt_intptr_ToString
 plt_intptr_ToString:
 _p_39:
@@ -31308,7 +31308,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 9949
+.word 9950
 	.no_dead_strip plt_OpenTK_Graphics_ColorFormat_op_Equality_OpenTK_Graphics_ColorFormat_OpenTK_Graphics_ColorFormat
 plt_OpenTK_Graphics_ColorFormat_op_Equality_OpenTK_Graphics_ColorFormat_OpenTK_Graphics_ColorFormat:
 _p_40:
@@ -31316,7 +31316,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 9954
+.word 9955
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_41:
@@ -31324,7 +31324,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 9956
+.word 9957
 	.no_dead_strip plt_string_Concat_string_string_string_string
 plt_string_Concat_string_string_string_string:
 _p_42:
@@ -31332,7 +31332,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 9961
+.word 9962
 	.no_dead_strip plt_OpenTK_Graphics_ColorFormat__ctor_int
 plt_OpenTK_Graphics_ColorFormat__ctor_int:
 _p_43:
@@ -31340,7 +31340,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 9966
+.word 9967
 	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
 plt__jit_icall_mono_monitor_enter_v4_internal:
 _p_44:
@@ -31348,7 +31348,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 9968
+.word 9969
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_FindSharedContext
 plt_OpenTK_Graphics_GraphicsContext_FindSharedContext:
 _p_45:
@@ -31356,7 +31356,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 10001
+.word 10002
 	.no_dead_strip plt_OpenTK_Platform_Factory_CreateGLContext_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_bool_int_int_OpenTK_Graphics_GraphicsContextFlags
 plt_OpenTK_Platform_Factory_CreateGLContext_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_bool_int_int_OpenTK_Graphics_GraphicsContextFlags:
 _p_46:
@@ -31364,7 +31364,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 10003
+.word 10004
 	.no_dead_strip plt_OpenTK_Platform_Factory_CreateGetCurrentGraphicsContext
 plt_OpenTK_Platform_Factory_CreateGetCurrentGraphicsContext:
 _p_47:
@@ -31372,7 +31372,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 10006
+.word 10007
 	.no_dead_strip plt_System_WeakReference__ctor_object
 plt_System_WeakReference__ctor_object:
 _p_48:
@@ -31380,7 +31380,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 10009
+.word 10010
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Add_OpenTK_ContextHandle_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Add_OpenTK_ContextHandle_System_WeakReference:
 _p_49:
@@ -31388,7 +31388,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 10014
+.word 10015
 	.no_dead_strip plt_System_Threading_Monitor_Exit_object
 plt_System_Threading_Monitor_Exit_object:
 _p_50:
@@ -31396,7 +31396,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 10025
+.word 10026
 	.no_dead_strip plt_OpenTK_ContextHandle_ToString
 plt_OpenTK_ContextHandle_ToString:
 _p_51:
@@ -31404,7 +31404,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 10030
+.word 10031
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_52:
@@ -31412,7 +31412,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 10032
+.word 10033
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Values
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Values:
 _p_53:
@@ -31420,7 +31420,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 10058
+.word 10059
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator:
 _p_54:
@@ -31428,7 +31428,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 10069
+.word 10070
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext:
 _p_55:
@@ -31436,7 +31436,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 10080
+.word 10081
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Item_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Item_OpenTK_ContextHandle:
 _p_56:
@@ -31444,7 +31444,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 10091
+.word 10092
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_get_CurrentContext
 plt_OpenTK_Graphics_GraphicsContext_get_CurrentContext:
 _p_57:
@@ -31452,7 +31452,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 10102
+.word 10103
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContextException__ctor
 plt_OpenTK_Graphics_GraphicsContextException__ctor:
 _p_58:
@@ -31460,7 +31460,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 10104
+.word 10105
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_Dispose_bool
 plt_OpenTK_Graphics_GraphicsContext_Dispose_bool:
 _p_59:
@@ -31468,7 +31468,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 10107
+.word 10108
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_get_IsDisposed
 plt_OpenTK_Graphics_GraphicsContext_get_IsDisposed:
 _p_60:
@@ -31476,7 +31476,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 10110
+.word 10111
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Remove_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Remove_OpenTK_ContextHandle:
 _p_61:
@@ -31484,7 +31484,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 10112
+.word 10113
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor:
 _p_62:
@@ -31492,7 +31492,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 10123
+.word 10124
 	.no_dead_strip plt_System_Exception__ctor
 plt_System_Exception__ctor:
 _p_63:
@@ -31500,7 +31500,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 10134
+.word 10135
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Index_System_Nullable_1_intptr
 plt_OpenTK_Graphics_GraphicsMode_set_Index_System_Nullable_1_intptr:
 _p_64:
@@ -31508,7 +31508,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 10139
+.word 10140
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_ColorFormat_OpenTK_Graphics_ColorFormat
 plt_OpenTK_Graphics_GraphicsMode_set_ColorFormat_OpenTK_Graphics_ColorFormat:
 _p_65:
@@ -31516,7 +31516,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 10142
+.word 10143
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Depth_int
 plt_OpenTK_Graphics_GraphicsMode_set_Depth_int:
 _p_66:
@@ -31524,7 +31524,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 10145
+.word 10146
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Stencil_int
 plt_OpenTK_Graphics_GraphicsMode_set_Stencil_int:
 _p_67:
@@ -31532,7 +31532,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 10148
+.word 10149
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Samples_int
 plt_OpenTK_Graphics_GraphicsMode_set_Samples_int:
 _p_68:
@@ -31540,7 +31540,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 10151
+.word 10152
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_AccumulatorFormat_OpenTK_Graphics_ColorFormat
 plt_OpenTK_Graphics_GraphicsMode_set_AccumulatorFormat_OpenTK_Graphics_ColorFormat:
 _p_69:
@@ -31548,7 +31548,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 10154
+.word 10155
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Buffers_int
 plt_OpenTK_Graphics_GraphicsMode_set_Buffers_int:
 _p_70:
@@ -31556,7 +31556,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 10157
+.word 10158
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Stereo_bool
 plt_OpenTK_Graphics_GraphicsMode_set_Stereo_bool:
 _p_71:
@@ -31564,7 +31564,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 10160
+.word 10161
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_LazySelectGraphicsMode
 plt_OpenTK_Graphics_GraphicsMode_LazySelectGraphicsMode:
 _p_72:
@@ -31572,7 +31572,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 10163
+.word 10164
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Index
 plt_OpenTK_Graphics_GraphicsMode_get_Index:
 _p_73:
@@ -31580,7 +31580,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 10166
+.word 10167
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_ColorFormat
 plt_OpenTK_Graphics_GraphicsMode_get_ColorFormat:
 _p_74:
@@ -31588,7 +31588,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 10169
+.word 10170
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Depth
 plt_OpenTK_Graphics_GraphicsMode_get_Depth:
 _p_75:
@@ -31596,7 +31596,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 10172
+.word 10173
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Stencil
 plt_OpenTK_Graphics_GraphicsMode_get_Stencil:
 _p_76:
@@ -31604,7 +31604,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 10175
+.word 10176
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Samples
 plt_OpenTK_Graphics_GraphicsMode_get_Samples:
 _p_77:
@@ -31612,7 +31612,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 10178
+.word 10179
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_AccumulatorFormat
 plt_OpenTK_Graphics_GraphicsMode_get_AccumulatorFormat:
 _p_78:
@@ -31620,7 +31620,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 10181
+.word 10182
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Buffers
 plt_OpenTK_Graphics_GraphicsMode_get_Buffers:
 _p_79:
@@ -31628,7 +31628,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 10184
+.word 10185
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Stereo
 plt_OpenTK_Graphics_GraphicsMode_get_Stereo:
 _p_80:
@@ -31636,7 +31636,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 10187
+.word 10188
 	.no_dead_strip plt_System_Nullable_1_intptr_Box_System_Nullable_1_intptr
 plt_System_Nullable_1_intptr_Box_System_Nullable_1_intptr:
 _p_81:
@@ -31644,7 +31644,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 10190
+.word 10191
 	.no_dead_strip plt_System_Nullable_1_intptr_GetHashCode
 plt_System_Nullable_1_intptr_GetHashCode:
 _p_82:
@@ -31652,7 +31652,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 10212
+.word 10213
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_Equals_OpenTK_Graphics_GraphicsMode
 plt_OpenTK_Graphics_GraphicsMode_Equals_OpenTK_Graphics_GraphicsMode:
 _p_83:
@@ -31660,7 +31660,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 10234
+.word 10235
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint
 plt_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint:
 _p_84:
@@ -31668,7 +31668,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 10237
+.word 10238
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_uint
 plt_OpenTK_Graphics_ES30_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_uint:
 _p_85:
@@ -31676,7 +31676,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 10240
+.word 10241
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_DeleteFramebuffers_int_uint_
 plt_OpenTK_Graphics_ES30_GL_Core_DeleteFramebuffers_int_uint_:
 _p_86:
@@ -31684,7 +31684,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 10243
+.word 10244
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_DeleteRenderbuffers_int_uint_
 plt_OpenTK_Graphics_ES30_GL_Core_DeleteRenderbuffers_int_uint_:
 _p_87:
@@ -31692,7 +31692,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 10246
+.word 10247
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_uint
 plt_OpenTK_Graphics_ES30_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_uint:
 _p_88:
@@ -31700,7 +31700,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 10249
+.word 10250
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_GenFramebuffers_int_uint_
 plt_OpenTK_Graphics_ES30_GL_Core_GenFramebuffers_int_uint_:
 _p_89:
@@ -31708,7 +31708,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 10252
+.word 10253
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_GenRenderbuffers_int_uint_
 plt_OpenTK_Graphics_ES30_GL_Core_GenRenderbuffers_int_uint_:
 _p_90:
@@ -31716,7 +31716,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 10255
+.word 10256
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_GetIntegerv_OpenTK_Graphics_ES30_GetPName_int_
 plt_OpenTK_Graphics_ES30_GL_Core_GetIntegerv_OpenTK_Graphics_ES30_GetPName_int_:
 _p_91:
@@ -31724,7 +31724,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 10258
+.word 10259
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_
 plt_OpenTK_Graphics_ES30_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_:
 _p_92:
@@ -31732,7 +31732,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 10261
+.word 10262
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_PixelStorei_OpenTK_Graphics_ES30_PixelStoreParameter_int
 plt_OpenTK_Graphics_ES30_GL_Core_PixelStorei_OpenTK_Graphics_ES30_PixelStoreParameter_int:
 _p_93:
@@ -31740,7 +31740,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 10264
+.word 10265
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType
 plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType:
 _p_94:
@@ -31748,7 +31748,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 10267
+.word 10268
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject
 plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject:
 _p_95:
@@ -31756,7 +31756,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 10272
+.word 10273
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_intptr
 plt_OpenTK_Graphics_ES30_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_intptr:
 _p_96:
@@ -31764,7 +31764,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 10277
+.word 10278
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Free
 plt_System_Runtime_InteropServices_GCHandle_Free:
 _p_97:
@@ -31772,7 +31772,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 10280
+.word 10281
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES30_GL_Core_Scissor_int_int_int_int:
 _p_98:
@@ -31780,7 +31780,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 10285
+.word 10286
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES30_GL_Core_Viewport_int_int_int_int:
 _p_99:
@@ -31788,7 +31788,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 10288
+.word 10289
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_uint
 plt_OpenTK_Graphics_ES20_GL_Core_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_uint:
 _p_100:
@@ -31796,7 +31796,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 10291
+.word 10292
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_uint
 plt_OpenTK_Graphics_ES20_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_uint:
 _p_101:
@@ -31804,7 +31804,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 10294
+.word 10295
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_DeleteFramebuffers_int_uint_
 plt_OpenTK_Graphics_ES20_GL_Core_DeleteFramebuffers_int_uint_:
 _p_102:
@@ -31812,7 +31812,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 10297
+.word 10298
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_DeleteRenderbuffers_int_uint_
 plt_OpenTK_Graphics_ES20_GL_Core_DeleteRenderbuffers_int_uint_:
 _p_103:
@@ -31820,7 +31820,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 10300
+.word 10301
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_uint
 plt_OpenTK_Graphics_ES20_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_uint:
 _p_104:
@@ -31828,7 +31828,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 10303
+.word 10304
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_GenFramebuffers_int_uint_
 plt_OpenTK_Graphics_ES20_GL_Core_GenFramebuffers_int_uint_:
 _p_105:
@@ -31836,7 +31836,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 10306
+.word 10307
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_GenRenderbuffers_int_uint_
 plt_OpenTK_Graphics_ES20_GL_Core_GenRenderbuffers_int_uint_:
 _p_106:
@@ -31844,7 +31844,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 10309
+.word 10310
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_GetIntegerv_OpenTK_Graphics_ES20_GetPName_int_
 plt_OpenTK_Graphics_ES20_GL_Core_GetIntegerv_OpenTK_Graphics_ES20_GetPName_int_:
 _p_107:
@@ -31852,7 +31852,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 10312
+.word 10313
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_
 plt_OpenTK_Graphics_ES20_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_:
 _p_108:
@@ -31860,7 +31860,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 10315
+.word 10316
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_PixelStorei_OpenTK_Graphics_ES20_PixelStoreParameter_int
 plt_OpenTK_Graphics_ES20_GL_Core_PixelStorei_OpenTK_Graphics_ES20_PixelStoreParameter_int:
 _p_109:
@@ -31868,7 +31868,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 10318
+.word 10319
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_intptr
 plt_OpenTK_Graphics_ES20_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_intptr:
 _p_110:
@@ -31876,7 +31876,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 10321
+.word 10322
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES20_GL_Core_Scissor_int_int_int_int:
 _p_111:
@@ -31884,7 +31884,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 10324
+.word 10325
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES20_GL_Core_Viewport_int_int_int_int:
 _p_112:
@@ -31892,7 +31892,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 10327
+.word 10328
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_GetIntegerv_OpenTK_Graphics_ES11_All_int_
 plt_OpenTK_Graphics_ES11_GL_Core_GetIntegerv_OpenTK_Graphics_ES11_All_int_:
 _p_113:
@@ -31900,7 +31900,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 10330
+.word 10331
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_PixelStorei_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_Core_PixelStorei_OpenTK_Graphics_ES11_All_int:
 _p_114:
@@ -31908,7 +31908,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 10333
+.word 10334
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_intptr
 plt_OpenTK_Graphics_ES11_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_intptr:
 _p_115:
@@ -31916,7 +31916,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 10336
+.word 10337
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES11_GL_Core_Scissor_int_int_int_int:
 _p_116:
@@ -31924,7 +31924,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 10339
+.word 10340
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES11_GL_Core_Viewport_int_int_int_int:
 _p_117:
@@ -31932,7 +31932,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 10342
+.word 10343
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_BindFramebufferOES_OpenTK_Graphics_ES11_All_uint
 plt_OpenTK_Graphics_ES11_GL_Core_BindFramebufferOES_OpenTK_Graphics_ES11_All_uint:
 _p_118:
@@ -31940,7 +31940,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 10345
+.word 10346
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_BindRenderbufferOES_OpenTK_Graphics_ES11_All_uint
 plt_OpenTK_Graphics_ES11_GL_Core_BindRenderbufferOES_OpenTK_Graphics_ES11_All_uint:
 _p_119:
@@ -31948,7 +31948,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 10348
+.word 10349
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_DeleteFramebuffersOES_int_uint_
 plt_OpenTK_Graphics_ES11_GL_Core_DeleteFramebuffersOES_int_uint_:
 _p_120:
@@ -31956,7 +31956,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 10351
+.word 10352
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_DeleteRenderbuffersOES_int_uint_
 plt_OpenTK_Graphics_ES11_GL_Core_DeleteRenderbuffersOES_int_uint_:
 _p_121:
@@ -31964,7 +31964,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 10354
+.word 10355
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_FramebufferRenderbufferOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_uint
 plt_OpenTK_Graphics_ES11_GL_Core_FramebufferRenderbufferOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_uint:
 _p_122:
@@ -31972,7 +31972,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 10357
+.word 10358
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_GenFramebuffersOES_int_uint_
 plt_OpenTK_Graphics_ES11_GL_Core_GenFramebuffersOES_int_uint_:
 _p_123:
@@ -31980,7 +31980,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 10360
+.word 10361
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_GenRenderbuffersOES_int_uint_
 plt_OpenTK_Graphics_ES11_GL_Core_GenRenderbuffersOES_int_uint_:
 _p_124:
@@ -31988,7 +31988,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 10363
+.word 10364
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_GetRenderbufferParameterivOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
 plt_OpenTK_Graphics_ES11_GL_Core_GetRenderbufferParameterivOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_:
 _p_125:
@@ -31996,7 +31996,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 10366
+.word 10367
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_int_int_OpenTK_Graphics_GraphicsContextFlags
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_int_int_OpenTK_Graphics_GraphicsContextFlags:
 _p_126:
@@ -32004,7 +32004,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 10369
+.word 10370
 	.no_dead_strip plt_OpenGLES_EAGLContext_get_CurrentContext
 plt_OpenGLES_EAGLContext_get_CurrentContext:
 _p_127:
@@ -32012,7 +32012,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 10372
+.word 10373
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_int_int_OpenTK_Graphics_GraphicsContextFlags
 plt_OpenTK_Graphics_GraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_int_int_OpenTK_Graphics_GraphicsContextFlags:
 _p_128:
@@ -32020,7 +32020,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 10377
+.word 10378
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_MakeCurrent_OpenTK_Platform_IWindowInfo
 plt_OpenTK_Graphics_GraphicsContext_MakeCurrent_OpenTK_Platform_IWindowInfo:
 _p_129:
@@ -32028,7 +32028,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 10379
+.word 10380
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_130:
@@ -32036,7 +32036,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 10381
+.word 10382
 	.no_dead_strip plt_OpenTK_Platform_Utilities_CreateGraphicsContext_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_int_int_OpenTK_Graphics_GraphicsContextFlags
 plt_OpenTK_Platform_Utilities_CreateGraphicsContext_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_int_int_OpenTK_Graphics_GraphicsContextFlags:
 _p_131:
@@ -32044,7 +32044,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 10386
+.word 10387
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES1
 plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES1:
 _p_132:
@@ -32052,7 +32052,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 10389
+.word 10390
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES2
 plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES2:
 _p_133:
@@ -32060,7 +32060,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 10392
+.word 10393
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES3
 plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES3:
 _p_134:
@@ -32068,7 +32068,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 10395
+.word 10396
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_BindFramebuffer_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_Oes_BindFramebuffer_OpenTK_Graphics_ES11_All_int:
 _p_135:
@@ -32076,7 +32076,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 10398
+.word 10399
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_BindRenderbuffer_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_Oes_BindRenderbuffer_OpenTK_Graphics_ES11_All_int:
 _p_136:
@@ -32084,7 +32084,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 10401
+.word 10402
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_DeleteFramebuffers_int_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_DeleteFramebuffers_int_int_:
 _p_137:
@@ -32092,7 +32092,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 10404
+.word 10405
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_DeleteRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_DeleteRenderbuffers_int_int_:
 _p_138:
@@ -32100,7 +32100,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 10407
+.word 10408
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_FramebufferRenderbuffer_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_Oes_FramebufferRenderbuffer_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int:
 _p_139:
@@ -32108,7 +32108,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 10410
+.word 10411
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_GenFramebuffers_int_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_GenFramebuffers_int_int_:
 _p_140:
@@ -32116,7 +32116,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 10413
+.word 10414
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_GenRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_GenRenderbuffers_int_int_:
 _p_141:
@@ -32124,7 +32124,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 10416
+.word 10417
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_GetInteger_OpenTK_Graphics_ES11_All_int_
 plt_OpenTK_Graphics_ES11_GL_GetInteger_OpenTK_Graphics_ES11_All_int_:
 _p_142:
@@ -32132,7 +32132,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 10419
+.word 10420
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES11_GL_Scissor_int_int_int_int:
 _p_143:
@@ -32140,7 +32140,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 10422
+.word 10423
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES11_GL_Viewport_int_int_int_int:
 _p_144:
@@ -32148,7 +32148,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 10425
+.word 10426
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_GetRenderbufferParameter_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_GetRenderbufferParameter_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_:
 _p_145:
@@ -32156,7 +32156,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 10428
+.word 10429
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_PixelStore_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_PixelStore_OpenTK_Graphics_ES11_All_int:
 _p_146:
@@ -32164,7 +32164,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 10431
+.word 10432
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte__
 plt_OpenTK_Graphics_ES11_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte__:
 _p_147:
@@ -32172,7 +32172,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 10434
+.word 10435
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_int
 plt_OpenTK_Graphics_ES20_GL_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_int:
 _p_148:
@@ -32180,7 +32180,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 10446
+.word 10447
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_int
 plt_OpenTK_Graphics_ES20_GL_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_int:
 _p_149:
@@ -32188,7 +32188,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 10449
+.word 10450
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_DeleteFramebuffers_int_int_
 plt_OpenTK_Graphics_ES20_GL_DeleteFramebuffers_int_int_:
 _p_150:
@@ -32196,7 +32196,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 10452
+.word 10453
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_DeleteRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES20_GL_DeleteRenderbuffers_int_int_:
 _p_151:
@@ -32204,7 +32204,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 10455
+.word 10456
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_int
 plt_OpenTK_Graphics_ES20_GL_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_int:
 _p_152:
@@ -32212,7 +32212,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 10458
+.word 10459
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_GenFramebuffers_int_int_
 plt_OpenTK_Graphics_ES20_GL_GenFramebuffers_int_int_:
 _p_153:
@@ -32220,7 +32220,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 10461
+.word 10462
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_GenRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES20_GL_GenRenderbuffers_int_int_:
 _p_154:
@@ -32228,7 +32228,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 10464
+.word 10465
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_GetInteger_OpenTK_Graphics_ES20_GetPName_int_
 plt_OpenTK_Graphics_ES20_GL_GetInteger_OpenTK_Graphics_ES20_GetPName_int_:
 _p_155:
@@ -32236,7 +32236,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 10467
+.word 10468
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES20_GL_Scissor_int_int_int_int:
 _p_156:
@@ -32244,7 +32244,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 10470
+.word 10471
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES20_GL_Viewport_int_int_int_int:
 _p_157:
@@ -32252,7 +32252,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 10473
+.word 10474
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_GetRenderbufferParameter_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_
 plt_OpenTK_Graphics_ES20_GL_GetRenderbufferParameter_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_:
 _p_158:
@@ -32260,7 +32260,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 10476
+.word 10477
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_PixelStore_OpenTK_Graphics_ES20_PixelStoreParameter_int
 plt_OpenTK_Graphics_ES20_GL_PixelStore_OpenTK_Graphics_ES20_PixelStoreParameter_int:
 _p_159:
@@ -32268,7 +32268,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 10479
+.word 10480
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_byte__
 plt_OpenTK_Graphics_ES20_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_byte__:
 _p_160:
@@ -32276,7 +32276,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 10482
+.word 10483
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_int
 plt_OpenTK_Graphics_ES30_GL_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_int:
 _p_161:
@@ -32284,7 +32284,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 10494
+.word 10495
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_int
 plt_OpenTK_Graphics_ES30_GL_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_int:
 _p_162:
@@ -32292,7 +32292,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 10497
+.word 10498
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_DeleteFramebuffers_int_int_
 plt_OpenTK_Graphics_ES30_GL_DeleteFramebuffers_int_int_:
 _p_163:
@@ -32300,7 +32300,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 10500
+.word 10501
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_DeleteRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES30_GL_DeleteRenderbuffers_int_int_:
 _p_164:
@@ -32308,7 +32308,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 10503
+.word 10504
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_int
 plt_OpenTK_Graphics_ES30_GL_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_int:
 _p_165:
@@ -32316,7 +32316,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 10506
+.word 10507
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_GenFramebuffers_int_int_
 plt_OpenTK_Graphics_ES30_GL_GenFramebuffers_int_int_:
 _p_166:
@@ -32324,7 +32324,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 10509
+.word 10510
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_GenRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES30_GL_GenRenderbuffers_int_int_:
 _p_167:
@@ -32332,7 +32332,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 10512
+.word 10513
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_GetInteger_OpenTK_Graphics_ES30_GetPName_int_
 plt_OpenTK_Graphics_ES30_GL_GetInteger_OpenTK_Graphics_ES30_GetPName_int_:
 _p_168:
@@ -32340,7 +32340,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 10515
+.word 10516
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES30_GL_Scissor_int_int_int_int:
 _p_169:
@@ -32348,7 +32348,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 10518
+.word 10519
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES30_GL_Viewport_int_int_int_int:
 _p_170:
@@ -32356,7 +32356,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 10521
+.word 10522
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_GetRenderbufferParameter_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_
 plt_OpenTK_Graphics_ES30_GL_GetRenderbufferParameter_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_:
 _p_171:
@@ -32364,7 +32364,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 10524
+.word 10525
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_PixelStore_OpenTK_Graphics_ES30_PixelStoreParameter_int
 plt_OpenTK_Graphics_ES30_GL_PixelStore_OpenTK_Graphics_ES30_PixelStoreParameter_int:
 _p_172:
@@ -32372,7 +32372,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 10527
+.word 10528
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_byte__
 plt_OpenTK_Graphics_ES30_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_byte__:
 _p_173:
@@ -32380,7 +32380,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 10530
+.word 10531
 	.no_dead_strip plt_Foundation_NSObject__ctor
 plt_Foundation_NSObject__ctor:
 _p_174:
@@ -32388,7 +32388,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 10542
+.word 10543
 	.no_dead_strip plt_CoreAnimation_CADisplayLink_Create_Foundation_NSObject_ObjCRuntime_Selector
 plt_CoreAnimation_CADisplayLink_Create_Foundation_NSObject_ObjCRuntime_Selector:
 _p_175:
@@ -32396,7 +32396,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 10547
+.word 10548
 	.no_dead_strip plt_Foundation_NSRunLoop_get_Main
 plt_Foundation_NSRunLoop_get_Main:
 _p_176:
@@ -32404,7 +32404,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 10552
+.word 10553
 	.no_dead_strip plt_Foundation_NSRunLoop_get_NSDefaultRunLoopMode
 plt_Foundation_NSRunLoop_get_NSDefaultRunLoopMode:
 _p_177:
@@ -32412,7 +32412,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 10557
+.word 10558
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunIteration_Foundation_NSTimer
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunIteration_Foundation_NSTimer:
 _p_178:
@@ -32420,7 +32420,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 10562
+.word 10563
 	.no_dead_strip plt_ObjCRuntime_Selector__ctor_string
 plt_ObjCRuntime_Selector__ctor_string:
 _p_179:
@@ -32428,7 +32428,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 10565
+.word 10566
 	.no_dead_strip plt_Foundation_NSTimer_CreateRepeatingScheduledTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer
 plt_Foundation_NSTimer_CreateRepeatingScheduledTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer:
 _p_180:
@@ -32436,7 +32436,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 10570
+.word 10571
 	.no_dead_strip plt_UIKit_UIView__ctor_Foundation_NSCoder
 plt_UIKit_UIView__ctor_Foundation_NSCoder:
 _p_181:
@@ -32444,7 +32444,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 10575
+.word 10576
 	.no_dead_strip plt_UIKit_UIView__ctor_CoreGraphics_CGRect
 plt_UIKit_UIView__ctor_CoreGraphics_CGRect:
 _p_182:
@@ -32452,7 +32452,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 10580
+.word 10581
 	.no_dead_strip plt_ObjCRuntime_Class__ctor_System_Type
 plt_ObjCRuntime_Class__ctor_System_Type:
 _p_183:
@@ -32460,7 +32460,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 10585
+.word 10586
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertValid
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertValid:
 _p_184:
@@ -32468,7 +32468,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 10590
+.word 10591
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetViewController
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetViewController:
 _p_185:
@@ -32476,7 +32476,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 10593
+.word 10594
 	.no_dead_strip plt_UIKit_UIView_get_Hidden
 plt_UIKit_UIView_get_Hidden:
 _p_186:
@@ -32484,7 +32484,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 10596
+.word 10597
 	.no_dead_strip plt_UIKit_UIView_set_Hidden_bool
 plt_UIKit_UIView_set_Hidden_bool:
 _p_187:
@@ -32492,7 +32492,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 10601
+.word 10602
 	.no_dead_strip plt_System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size
 plt_System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size:
 _p_188:
@@ -32500,7 +32500,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 10606
+.word 10607
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerColorFormat
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerColorFormat:
 _p_189:
@@ -32508,7 +32508,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 10611
+.word 10612
 	.no_dead_strip plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString
 plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString:
 _p_190:
@@ -32516,7 +32516,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 10614
+.word 10615
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerRetainsBacking
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerRetainsBacking:
 _p_191:
@@ -32524,7 +32524,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 10619
+.word 10620
 	.no_dead_strip plt_Foundation_NSNumber_FromBoolean_bool
 plt_Foundation_NSNumber_FromBoolean_bool:
 _p_192:
@@ -32532,7 +32532,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 10622
+.word 10623
 	.no_dead_strip plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__
 plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__:
 _p_193:
@@ -32540,7 +32540,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 10627
+.word 10628
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_ContextRenderingApi
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_ContextRenderingApi:
 _p_194:
@@ -32548,7 +32548,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 10632
+.word 10633
 	.no_dead_strip plt_OpenTK_Platform_Utilities_CreateGraphicsContext_OpenGLES_EAGLRenderingAPI
 plt_OpenTK_Platform_Utilities_CreateGraphicsContext_OpenGLES_EAGLRenderingAPI:
 _p_195:
@@ -32556,7 +32556,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 10635
+.word 10636
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_GLCalls_GetGLCalls_OpenGLES_EAGLRenderingAPI
 plt_OpenTK_Platform_iPhoneOS_GLCalls_GetGLCalls_OpenGLES_EAGLRenderingAPI:
 _p_196:
@@ -32564,7 +32564,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 10638
+.word 10639
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_EAGLContext
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_EAGLContext:
 _p_197:
@@ -32572,7 +32572,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 10641
+.word 10642
 	.no_dead_strip plt_System_Math_Round_double
 plt_System_Math_Round_double:
 _p_198:
@@ -32580,7 +32580,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 10644
+.word 10645
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Size_System_Drawing_Size
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Size_System_Drawing_Size:
 _p_199:
@@ -32588,7 +32588,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 10649
+.word 10650
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertContext
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertContext:
 _p_200:
@@ -32596,7 +32596,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 10652
+.word 10653
 	.no_dead_strip plt_OpenGLES_EAGLContext_SetCurrentContext_OpenGLES_EAGLContext
 plt_OpenGLES_EAGLContext_SetCurrentContext_OpenGLES_EAGLContext:
 _p_201:
@@ -32604,7 +32604,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 10655
+.word 10656
 	.no_dead_strip plt_System_Diagnostics_Stopwatch_Stop
 plt_System_Diagnostics_Stopwatch_Stop:
 _p_202:
@@ -32612,7 +32612,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 10660
+.word 10661
 	.no_dead_strip plt_UIKit_UIView_Dispose_bool
 plt_UIKit_UIView_Dispose_bool:
 _p_203:
@@ -32620,7 +32620,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 10665
+.word 10666
 	.no_dead_strip plt_UIKit_UIView_LayoutSubviews
 plt_UIKit_UIView_LayoutSubviews:
 _p_204:
@@ -32628,7 +32628,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 10670
+.word 10671
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Size
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Size:
 _p_205:
@@ -32636,7 +32636,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 10675
+.word 10676
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunWithFrameInterval_int
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunWithFrameInterval_int:
 _p_206:
@@ -32644,7 +32644,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 10678
+.word 10679
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_NSTimerTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_double
 plt_OpenTK_Platform_iPhoneOS_NSTimerTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_double:
 _p_207:
@@ -32652,7 +32652,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 10681
+.word 10682
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Start
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Start:
 _p_208:
@@ -32660,7 +32660,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 10684
+.word 10685
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_int
 plt_OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_int:
 _p_209:
@@ -32668,7 +32668,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 10687
+.word 10688
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Resume
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Resume:
 _p_210:
@@ -32676,7 +32676,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 10690
+.word 10691
 	.no_dead_strip plt_System_Diagnostics_Stopwatch_Start
 plt_System_Diagnostics_Stopwatch_Start:
 _p_211:
@@ -32684,7 +32684,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 10693
+.word 10694
 	.no_dead_strip plt_CoreGraphics_CGDataProvider__ctor_byte___int_int
 plt_CoreGraphics_CGDataProvider__ctor_byte___int_int:
 _p_212:
@@ -32692,7 +32692,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 10698
+.word 10699
 	.no_dead_strip plt_CoreGraphics_CGColorSpace_CreateDeviceRGB
 plt_CoreGraphics_CGColorSpace_CreateDeviceRGB:
 _p_213:
@@ -32700,7 +32700,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 10703
+.word 10704
 	.no_dead_strip plt_CoreGraphics_CGImage__ctor_int_int_int_int_int_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent
 plt_CoreGraphics_CGImage__ctor_int_int_int_int_int_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent:
 _p_214:
@@ -32708,7 +32708,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 10708
+.word 10709
 	.no_dead_strip plt_CoreGraphics_CGSize__ctor_single_single
 plt_CoreGraphics_CGSize__ctor_single_single:
 _p_215:
@@ -32716,7 +32716,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 10713
+.word 10714
 	.no_dead_strip plt_UIKit_UIGraphics_BeginImageContextWithOptions_CoreGraphics_CGSize_bool_System_nfloat
 plt_UIKit_UIGraphics_BeginImageContextWithOptions_CoreGraphics_CGSize_bool_System_nfloat:
 _p_216:
@@ -32724,7 +32724,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 10718
+.word 10719
 	.no_dead_strip plt_UIKit_UIGraphics_GetCurrentContext
 plt_UIKit_UIGraphics_GetCurrentContext:
 _p_217:
@@ -32732,7 +32732,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 10723
+.word 10724
 	.no_dead_strip plt_CoreGraphics_CGContext_SetBlendMode_CoreGraphics_CGBlendMode
 plt_CoreGraphics_CGContext_SetBlendMode_CoreGraphics_CGBlendMode:
 _p_218:
@@ -32740,7 +32740,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 10728
+.word 10729
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
 plt_CoreGraphics_CGRect__ctor_single_single_single_single:
 _p_219:
@@ -32748,7 +32748,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 10733
+.word 10734
 	.no_dead_strip plt_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage
 plt_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage:
 _p_220:
@@ -32756,7 +32756,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 10738
+.word 10739
 	.no_dead_strip plt_UIKit_UIGraphics_GetImageFromCurrentImageContext
 plt_UIKit_UIGraphics_GetImageFromCurrentImageContext:
 _p_221:
@@ -32764,7 +32764,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 10743
+.word 10744
 	.no_dead_strip plt_UIKit_UIGraphics_EndImageContext
 plt_UIKit_UIGraphics_EndImageContext:
 _p_222:
@@ -32772,7 +32772,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 10748
+.word 10749
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Suspend
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Suspend:
 _p_223:
@@ -32780,7 +32780,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 10753
+.word 10754
 	.no_dead_strip plt_System_Diagnostics_Stopwatch_get_Elapsed
 plt_System_Diagnostics_Stopwatch_get_Elapsed:
 _p_224:
@@ -32788,7 +32788,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 10756
+.word 10757
 	.no_dead_strip plt_System_TimeSpan_op_Subtraction_System_TimeSpan_System_TimeSpan
 plt_System_TimeSpan_op_Subtraction_System_TimeSpan_System_TimeSpan:
 _p_225:
@@ -32796,7 +32796,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 10761
+.word 10762
 	.no_dead_strip plt_OpenTK_FrameEventArgs_set_Time_double
 plt_OpenTK_FrameEventArgs_set_Time_double:
 _p_226:
@@ -32804,7 +32804,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 10766
+.word 10767
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_227:
@@ -32812,7 +32812,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 10768
+.word 10769
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_228:
@@ -32820,7 +32820,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 10773
+.word 10774
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_229:
@@ -32828,7 +32828,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 10778
+.word 10779
 	.no_dead_strip plt_OpenGLES_EAGLContext__ctor_OpenGLES_EAGLRenderingAPI
 plt_OpenGLES_EAGLContext__ctor_OpenGLES_EAGLRenderingAPI:
 _p_230:
@@ -32836,7 +32836,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 10808
+.word 10809
 	.no_dead_strip plt_OpenGLES_EAGLContext__ctor_OpenGLES_EAGLRenderingAPI_OpenGLES_EAGLSharegroup
 plt_OpenGLES_EAGLContext__ctor_OpenGLES_EAGLRenderingAPI_OpenGLES_EAGLSharegroup:
 _p_231:
@@ -32844,7 +32844,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 10813
+.word 10814
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_232:
@@ -32852,7 +32852,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 10818
+.word 10819
 	.no_dead_strip plt_System_Nullable_1_intptr__ctor_intptr
 plt_System_Nullable_1_intptr__ctor_intptr:
 _p_233:
@@ -32860,7 +32860,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 10823
+.word 10824
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode__ctor_System_Nullable_1_intptr_OpenTK_Graphics_ColorFormat_int_int_int_OpenTK_Graphics_ColorFormat_int_bool
 plt_OpenTK_Graphics_GraphicsMode__ctor_System_Nullable_1_intptr_OpenTK_Graphics_ColorFormat_int_int_int_OpenTK_Graphics_ColorFormat_int_bool:
 _p_234:
@@ -32868,7 +32868,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 10834
+.word 10835
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_235:
@@ -32876,7 +32876,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 10854
+.word 10855
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_236:
@@ -32884,7 +32884,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 10896
+.word 10897
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_237:
@@ -32892,7 +32892,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 10938
+.word 10939
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_238:
@@ -32900,7 +32900,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 10963
+.word 10964
 	.no_dead_strip plt_System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int
 plt_System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int:
 _p_239:
@@ -32908,7 +32908,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 11001
+.word 11002
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_240:
@@ -32916,7 +32916,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 11021
+.word 11022
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
 plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current:
 _p_241:
@@ -32924,7 +32924,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 11050
+.word 11051
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array:
 _p_242:
@@ -32932,7 +32932,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 11069
+.word 11070
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_PairToString_object_object
 plt_System_Collections_Generic_KeyValuePair_PairToString_object_object:
 _p_243:
@@ -32940,7 +32940,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 11088
+.word 11089
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer:
 _p_244:
@@ -32948,7 +32948,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 11093
+.word 11094
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_245:
@@ -32956,7 +32956,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 11111
+.word 11112
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_246:
@@ -32964,7 +32964,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 11116
+.word 11117
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_247:
@@ -32972,7 +32972,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 11121
+.word 11122
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_248:
@@ -32980,7 +32980,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 11126
+.word 11127
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_249:
@@ -32988,7 +32988,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 11131
+.word 11132
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference:
 _p_250:
@@ -32996,7 +32996,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 11136
+.word 11137
 	.no_dead_strip plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException
 plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException:
 _p_251:
@@ -33004,7 +33004,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 11158
+.word 11159
 	.no_dead_strip plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource:
 _p_252:
@@ -33012,7 +33012,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 11163
+.word 11164
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsKey_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsKey_OpenTK_ContextHandle:
 _p_253:
@@ -33020,7 +33020,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 11168
+.word 11169
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_OpenTK_ContextHandle___int
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_OpenTK_ContextHandle___int:
 _p_254:
@@ -33028,7 +33028,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 11192
+.word 11193
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_255:
@@ -33036,7 +33036,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 11214
+.word 11215
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference:
 _p_256:
@@ -33044,7 +33044,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 11253
+.word 11254
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference:
 _p_257:
@@ -33052,7 +33052,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 11277
+.word 11278
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_System_WeakReference___int
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_System_WeakReference___int:
 _p_258:
@@ -33060,7 +33060,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 11301
+.word 11302
 	.no_dead_strip plt_intptr_Equals_object
 plt_intptr_Equals_object:
 _p_259:
@@ -33068,7 +33068,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 11325
+.word 11326
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
 plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_260:
@@ -33076,7 +33076,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 11330
+.word 11331
 	.no_dead_strip plt_System_Nullable_1_intptr_Unbox_object
 plt_System_Nullable_1_intptr_Unbox_object:
 _p_261:
@@ -33084,7 +33084,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 11382
+.word 11383
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_262:
@@ -33092,7 +33092,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 11404
+.word 11405
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_263:
@@ -33100,7 +33100,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 11433
+.word 11434
 	.no_dead_strip plt__jit_icall_g_free
 plt__jit_icall_g_free:
 _p_264:
@@ -33108,7 +33108,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 11460
+.word 11461
 	.no_dead_strip plt__jit_icall_mono_string_to_utf8str
 plt__jit_icall_mono_string_to_utf8str:
 _p_265:
@@ -33116,7 +33116,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 11469
+.word 11470
 	.no_dead_strip plt__jit_icall_ves_icall_string_new_wrapper
 plt__jit_icall_ves_icall_string_new_wrapper:
 _p_266:
@@ -33124,7 +33124,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 11494
+.word 11495
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior:
 _p_267:
@@ -33132,7 +33132,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 11525
+.word 11526
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference:
 _p_268:
@@ -33140,7 +33140,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 11549
+.word 11550
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_FindEntry_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_FindEntry_OpenTK_ContextHandle:
 _p_269:
@@ -33148,7 +33148,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 11573
+.word 11574
 	.no_dead_strip plt_System_ThrowHelper_ThrowKeyNotFoundException_object
 plt_System_ThrowHelper_ThrowKeyNotFoundException_object:
 _p_270:
@@ -33156,7 +33156,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 11597
+.word 11598
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor_int_System_Collections_Generic_IEqualityComparer_1_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor_int_System_Collections_Generic_IEqualityComparer_1_OpenTK_ContextHandle:
 _p_271:
@@ -33164,7 +33164,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 11602
+.word 11603
 	.no_dead_strip plt_OpenTK_ContextHandle_Equals_object
 plt_OpenTK_ContextHandle_Equals_object:
 _p_272:
@@ -33172,7 +33172,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 11626
+.word 11627
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_System_WeakReference_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_System_WeakReference_CreateComparer:
 _p_273:
@@ -33180,7 +33180,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 11628
+.word 11629
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Initialize_int
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Initialize_int:
 _p_274:
@@ -33188,7 +33188,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 11648
+.word 11649
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize:
 _p_275:
@@ -33196,7 +33196,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 11672
+.word 11673
 	.no_dead_strip plt_System_ThrowHelper_ThrowAddingDuplicateWithKeyArgumentException_object
 plt_System_ThrowHelper_ThrowAddingDuplicateWithKeyArgumentException_object:
 _p_276:
@@ -33204,7 +33204,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 11696
+.word 11697
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_ConcurrentOperationsNotSupported
 plt_System_ThrowHelper_ThrowInvalidOperationException_ConcurrentOperationsNotSupported:
 _p_277:
@@ -33212,7 +33212,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 11701
+.word 11702
 	.no_dead_strip plt_System_Type_get_IsValueType
 plt_System_Type_get_IsValueType:
 _p_278:
@@ -33220,7 +33220,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 11706
+.word 11707
 	.no_dead_strip plt_System_RuntimeTypeHandle_HasReferences_System_RuntimeType
 plt_System_RuntimeTypeHandle_HasReferences_System_RuntimeType:
 _p_279:
@@ -33228,7 +33228,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 11711
+.word 11712
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument:
 _p_280:
@@ -33236,7 +33236,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 11716
+.word 11717
 	.no_dead_strip plt_System_Collections_HashHelpers_ExpandPrime_int
 plt_System_Collections_HashHelpers_ExpandPrime_int:
 _p_281:
@@ -33244,7 +33244,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 11721
+.word 11722
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize_int_bool
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize_int_bool:
 _p_282:
@@ -33252,7 +33252,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 11726
+.word 11727
 	.no_dead_strip plt_System_Collections_HashHelpers_GetPrime_int
 plt_System_Collections_HashHelpers_GetPrime_int:
 _p_283:
@@ -33260,7 +33260,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 11750
+.word 11751
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_284:
@@ -33268,7 +33268,7 @@ adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 11755
+.word 11756
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -33387,13 +33387,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 541,6608,285,709,83,66,387000831,0
-	.long 61582,128,8,8,8,9,8388607,0
+	.long 61583,128,8,8,8,9,8388607,0
 	.long 24,72424,10832,10464,7680,0,9128,10320
 	.long 8400,0,5992,1000,10824,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 141,128,158,209,186,79,126,76,16,156,69,184,106,15,224,82
+	.byte 174,65,118,86,158,121,20,191,82,5,43,78,121,229,255,185
 	.globl _mono_aot_module_OpenTK_1_0_info
 	.align 3
 _mono_aot_module_OpenTK_1_0_info:

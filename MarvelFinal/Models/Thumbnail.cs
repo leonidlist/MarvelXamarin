@@ -9,6 +9,6 @@ namespace Marvel.Models
         public string Path { get; set; }
         [JsonProperty(PropertyName = "extension")]
         public string Extension { get; set; }
-        public string FullURI { get => Path + "." + Extension; }
+        public string URI => Path + "." + Extension; 
     }
 }

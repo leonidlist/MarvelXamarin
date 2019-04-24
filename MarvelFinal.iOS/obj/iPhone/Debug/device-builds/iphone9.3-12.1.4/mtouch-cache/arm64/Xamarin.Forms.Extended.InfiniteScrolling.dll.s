@@ -28448,7 +28448,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 33,88,57,48,19,250,192,167,40,183,19,160,142,237,184,188
+	.byte 156,162,75,75,26,148,184,89,157,109,88,21,212,113,65,56
 	.globl _mono_aot_module_Xamarin_Forms_Extended_InfiniteScrolling_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Extended_InfiniteScrolling_info:

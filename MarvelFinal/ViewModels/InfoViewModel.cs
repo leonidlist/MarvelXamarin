@@ -7,7 +7,7 @@ using Marvel.Models;
 
 namespace Marvel.ViewModels
 {
-    public class InfoViewModel:INotifyPropertyChanged
+    public class InfoViewModel: INotifyPropertyChanged
     {
 
         public MarvelCharacter Character { get; set; }

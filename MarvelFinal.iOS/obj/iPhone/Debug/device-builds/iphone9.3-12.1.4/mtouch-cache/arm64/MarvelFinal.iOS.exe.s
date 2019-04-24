@@ -213,7 +213,7 @@ Lme_1:
 	.no_dead_strip MarvelFinal_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 MarvelFinal_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 .file 2 "/Users/mac/Documents/Xamarin/MarvelFinal/MarvelFinal.iOS/AppDelegate.cs"
-.loc 2 24 0 prologue_end
+.loc 2 25 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -240,7 +240,7 @@ ldr x16, [x16, #216]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 25 0
+.loc 2 26 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
@@ -250,9 +250,19 @@ bl _p_2
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 26 0
+.loc 2 27 0
 .word 0xf9401bb1
 .word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_3
+.word 0xf9401bb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 28 0
+.word 0xf9401bb1
+.word 0xf940ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -262,48 +272,48 @@ add x16, x16, mono_aot_MarvelFinal_iOS_got@PAGEOFF
 ldr x0, [x16, #224]
 .word 0xd2802d01
 .word 0xd2802d01
-bl _p_3
-.word 0xf9002fa0
 bl _p_4
+.word 0xf9002fa0
+bl _p_5
 .word 0xf9401bb1
-.word 0xf940ca31
+.word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa1
 .word 0xaa1803e0
-bl _p_5
+bl _p_6
 .word 0xf9401bb1
-.word 0xf940e631
+.word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 28 0
+.loc 2 30 0
 .word 0xf9401bb1
-.word 0xf940f631
+.word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf94013a1
 .word 0xf94017a2
 .word 0xaa1803e0
-bl _p_6
+bl _p_7
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
-.word 0xf9412231
+.word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x53001c00
 .word 0xaa0003f7
-.loc 2 29 0
+.loc 2 31 0
 .word 0xf9401bb1
-.word 0xf9413e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf9401bb1
-.word 0xf9415631
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
@@ -331,7 +341,7 @@ ldr x16, [x16, #232]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_7
+bl _p_8
 .word 0xf9400fb1
 .word 0xf9404a31
 .word 0xb4000051
@@ -399,50 +409,58 @@ add x16, x16, mono_aot_MarvelFinal_iOS_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
 .word 313
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+	.no_dead_strip plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_Init
+plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_Init:
 _p_3:
 adrp x16, mono_aot_MarvelFinal_iOS_got@PAGE+0
 add x16, x16, mono_aot_MarvelFinal_iOS_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
 .word 318
-	.no_dead_strip plt_MarvelFinal_App__ctor
-plt_MarvelFinal_App__ctor:
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_4:
 adrp x16, mono_aot_MarvelFinal_iOS_got@PAGE+0
 add x16, x16, mono_aot_MarvelFinal_iOS_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 326
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+.word 323
+	.no_dead_strip plt_MarvelFinal_App__ctor
+plt_MarvelFinal_App__ctor:
 _p_5:
 adrp x16, mono_aot_MarvelFinal_iOS_got@PAGE+0
 add x16, x16, mono_aot_MarvelFinal_iOS_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
 .word 331
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_6:
 adrp x16, mono_aot_MarvelFinal_iOS_got@PAGE+0
 add x16, x16, mono_aot_MarvelFinal_iOS_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
 .word 336
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_7:
 adrp x16, mono_aot_MarvelFinal_iOS_got@PAGE+0
 add x16, x16, mono_aot_MarvelFinal_iOS_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
 .word 341
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+_p_8:
+adrp x16, mono_aot_MarvelFinal_iOS_got@PAGE+0
+add x16, x16, mono_aot_MarvelFinal_iOS_got@PAGEOFF
+ldr x16, [x16, #304]
+br x16
+.word 346
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_MarvelFinal_iOS_got, 304
+.lcomm mono_aot_MarvelFinal_iOS_got, 312
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -465,7 +483,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "5FF29271-200F-4913-998B-65F49484CAC3"
+	.asciz "955BDF6C-FD32-45AA-B2CC-E5756C1439CE"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -548,14 +566,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 30,304,8,5,0,70,387000831,0
-	.long 906,128,8,8,8,9,8388607,0
-	.long 24,1688,776,344,184,0,288,320
-	.long 232,0,176,32,768,0,0,0
+	.long 30,312,9,5,0,70,387000831,0
+	.long 927,128,8,8,8,9,8388607,0
+	.long 24,1784,848,344,184,0,288,320
+	.long 232,0,176,32,840,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 22,131,102,96,4,41,34,218,244,197,172,200,32,101,222,203
+	.byte 188,227,197,130,144,187,58,34,190,29,43,101,255,234,200,81
 	.globl _mono_aot_module_MarvelFinal_iOS_info
 	.align 3
 _mono_aot_module_MarvelFinal_iOS_info:
@@ -6853,7 +6871,7 @@ LDIFF_SYM1070=LTDIE_170 - Ldebug_info_start
 	.asciz "MarvelFinal.iOS.AppDelegate:FinishedLaunching"
 	.asciz "MarvelFinal_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
 
-	.byte 2,24
+	.byte 2,25
 	.quad MarvelFinal_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.quad Lme_2
 
